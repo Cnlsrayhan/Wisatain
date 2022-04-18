@@ -1,0 +1,157 @@
+.content-box{
+    background-color: #FCFDF5;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 100px;
+    min-height: 100%;
+}
+
+.log-btn1{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    border: 1px solid #077584;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    padding: 10px;
+    width: 120px;
+    background: #077584;
+    transition: .5s;
+    border-radius: 10px;
+    }
+
+    .log-btn1:hover{
+        background: transparent;
+        box-shadow: 0px 0px 10px 5px rgb(148, 148, 255);
+        color: white;
+    }
+
+    .dtl{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255); 
+        border: 1px solid #077584;
+        font-size: 20px;
+        font-weight: 700;
+        display: block;
+        padding: 15px;
+        width: 190px;
+        height: 60px;
+        background: #077584;
+        transition: .5s;
+        border-radius: 10px;
+        opacity: 0;
+        margin-top: 40px;
+        }
+    
+    .dtl:hover{
+        background: transparent;
+        box-shadow: 0px 0px 10px 5px rgb(148, 148, 255);
+        color: white;
+    }
+    
+    .slide-left{
+        animation: slideleft 1s linear forwards;
+    }
+    @keyframes slideleft{
+        0%{
+            transform: translate(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translate(0px);
+            opacity: 1;
+        }
+    }
+    
+    h1.slide-left{
+        animation-delay: 1s;
+    }
+    h2.slide-left{
+        animation-delay: 2s;
+    }
+    p.slide-left{
+        animation-delay: 3s;
+    }
+    .slide-left.dtl{
+        animation-delay: 3s;
+    }
+    .slide-left.image2{
+        animation-delay: 1s;
+    }
+    
+    .image2{
+        height: 100%;
+        opacity: 0;
+    }
+    
+    .content-service{
+        background: url('/image/Layer2.jpeg');
+        background-size: cover;
+        min-height: 100%;
+        background-color: #FCFDF5;
+    }
+    
+    .content-vid{
+      
+        background-size: cover;
+        min-height: 100%;
+        background-color: #FCFDF5;
+    }
+    
+    .content-card{
+      
+        background-size: cover;
+        min-height: 100%;
+        background-color: #FCFDF5;
+        padding-bottom: 120px;
+    }
+    
+    .dtl1{
+        font-family: 'Poppins', sans-serif;
+        color: rgb(255, 255, 255); 
+        border: 1px solid #077584;
+        font-size: 20px;
+        font-weight: 600;
+        display: block;
+        padding: 15px;
+        width: 120px;
+        height: 55px;
+        background: #077584;
+        transition: .5s;
+        border-radius: 10px;
+        opacity: 0;
+        margin-top: 10px;
+        }
+    
+    .dtl1:hover{
+        background: transparent;
+        box-shadow: 0px 0px 10px 5px rgb(148, 148, 255);
+        color: white;
+    }
+    
+    .card-dest{
+        animation: slideleft 1s linear forwards;
+    }
+
+    .content-end{
+        margin-top: 400px;
+        background-color: #FCFDF5;
+        background: url('/image/Rectangle 7.png');
+        min-height: 100%;
+        background-size: cover;
+       
+    }
+        
+    .content-footer{
+        margin-top: 200px;
+        background-color: #EC8960;
+        min-height: 100%;
+        background-size: cover;
+    }
+    
+    .content-footer .sos img{
+        height: 40px;
+    }
+    .content-footer .sos img{
+        height: 40px;
+    }
